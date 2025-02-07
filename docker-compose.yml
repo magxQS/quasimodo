@@ -1,0 +1,18 @@
+
+##version: "3.7"
+services:
+  quasimodo:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        progress: plain
+    container_name: quasimodo
+    ports:
+      - "1900:5000"
+    networks: 
+      - base-network
+    command: "sleep infinity"
+networks:
+  base-network:
+    name: mag_quasimodo

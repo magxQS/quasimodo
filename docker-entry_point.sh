@@ -1,0 +1,2 @@
+
+echo "$SERVICE is up"
