@@ -10,3 +10,4 @@ QuantumSim docker support tested on linux and windows
 8) on windows click on the Docker Desktop icon, search for running containers and click on magxqs > quasimodo > Exec (is a tab)
 9) ...now you are connected to the dedicated linux container running QuantumSim software on your linux of windows systrem
 10) PS pay attention to the network configuration... such container results "bridged" to the network your system is connected to (run "docker network ls" for details)
+11) Although quasimodo is fully released under an MIT license, please be sure to comply with any restrictions (in terms of licensing) resulting from the installation on your system of software directly or indirectly invoked and installed while running quasimodo templates.
